@@ -1,0 +1,21 @@
+[Unit]
+Description=Kostal Smart Energy Meter (KSEM) Emulation
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/DiensteUndProgramme/ksemServer
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/home/pi/DiensteUndProgramme/ksemServer/bin/python3 /home/pi/DiensteUndProgramme/ksemServer/ksemServer.py
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+RestartSec=60
+ProtectHome=off
+
+[Install]
+WantedBy=multi-user.target
