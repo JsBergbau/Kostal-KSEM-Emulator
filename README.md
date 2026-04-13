@@ -309,11 +309,9 @@ Dieser hat im Leerlauf keine messbare Leistungsaufnahme gezeigt.
 
 Um das Messgerät im KOSTAL-System passend einzustellen, braucht man einen KOSTAL-Installateurcode.
 
-Der Code lautet:
+Nach einer konstrukativen Diskussion mit dem Kostal-Support im Photovoltaik-Forum und auf Bitte des Supports der Code hier entfernt. Ich verweise daher auf dieses Thema https://www.photovoltaikforum.com/thread/139927-solateur-mit-kostal-service-code-gesucht/
 
-`RKYEBWWC`
-
-Diesen Code hat mir freundlicherweise jemand im Photovoltaik-Forum mit der ausdrücklichen Erlaubnis zur Verfügung gestellt, ihn weiterzugeben.
+Folgende Erklärung war Kostal leider nicht ausreichend und ich kann es leider auch nachvollziehen, dass trotz Warnung der ein oder andere, wenn auch sehr wenige, Unfug damit anstellen würden:
 
 Mit diesem Code sollte man vorsichtig umgehen und nur die Einstellungen ändern, die für Akku und Messgerät wirklich notwendig sind. Man kann damit nämlich auch Netzparameter verändern, und davon sollte man die Finger lassen, wenn man nicht genau weiß, was man tut.
 
