@@ -192,7 +192,7 @@ Beispiel:
 python3 -m venv .ksemServer
 source .ksemServer/bin/activate
 pip install --upgrade pip
-pip install pymodbus httpx pyserial
+python -m pip install "pymodbus==3.12.1" httpx pyserial
 ```
 ---
 
